@@ -1,2 +1,5 @@
-._*
-.DS_Store
+tmp
+bin
+build
+*.zip
+.apt_generated

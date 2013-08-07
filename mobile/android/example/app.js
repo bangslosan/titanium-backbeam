@@ -13,16 +13,16 @@ win.add(label);
 win.open();
 
 // TODO: write your module tests here
-var ___PROJECTNAME___ = require('__MODULE_ID__');
-Ti.API.info("module is => " + ___PROJECTNAME___);
+var backbeam = require('io.backbeam');
+Ti.API.info("module is => " + backbeam);
 
-label.text = ___PROJECTNAME___.example();
+label.text = backbeam.example();
 
-Ti.API.info("module exampleProp is => " + ___PROJECTNAME___.exampleProp);
-___PROJECTNAME___.exampleProp = "This is a test value";
+Ti.API.info("module exampleProp is => " + backbeam.exampleProp);
+backbeam.exampleProp = "This is a test value";
 
 if (Ti.Platform.name == "android") {
-	var proxy = ___PROJECTNAME___.createExample({
+	var proxy = backbeam.createExample({
 		message: "Creating an example Proxy",
 		backgroundColor: "red",
 		width: 100,

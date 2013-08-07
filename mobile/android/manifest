@@ -4,13 +4,14 @@
 #
 version: 1.0.0
 apiversion: 2
-description: backbeam
+description: Backbeam.io Data Bindings for Titanium Studio
 author: Torgny Bjers
 license: Expat License <http://directory.fsf.org/wiki/License:Expat>
-copyright: Copyright (c) 2012 by Xorcode, LLC
+copyright: Copyright (c) 2013 by Xorcode, LLC
 
 # these should not be edited
 name: backbeam
 moduleid: io.backbeam
-guid: 60eeab05-e137-4bab-b8e0-48f2cf9c4d8a
-platforms: android
+guid: d6f3c98e-4f59-4927-903d-4d4e9420fc09
+platform: android
+minsdk: 3.1.1.GA
