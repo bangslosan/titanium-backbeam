@@ -165,10 +165,10 @@ def build_module(manifest,config):
 	from tools import ensure_dev_path
 	ensure_dev_path()
 
-	rc = os.system("xcodebuild -sdk iphoneos -configuration Release")
+	rc = os.system("xcodebuild IPHONEOS_DEPLOYMENT_TARGET=5.0 -sdk iphoneos -configuration Release")
 	if rc != 0:
 		die("xcodebuild failed")
-	rc = os.system("xcodebuild -sdk iphonesimulator -configuration Release")
+	rc = os.system("xcodebuild IPHONEOS_DEPLOYMENT_TARGET=5.0 -sdk iphonesimulator -configuration Release")
 	if rc != 0:
 		die("xcodebuild failed")
     # build the merged library using lipo

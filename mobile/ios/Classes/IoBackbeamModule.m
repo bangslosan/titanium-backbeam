@@ -16,7 +16,7 @@
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"c6b0d9c0-23d1-4139-8816-81b8390ea4b1";
+	return @"989fe233-b0b6-4b3a-be31-0312aa699ca6";
 }
 
 // this is generated for your module, please do not change it
@@ -44,14 +44,6 @@
 	
 	// you *must* call the superclass
 	[super shutdown:sender];
-}
-
-#pragma mark Cleanup 
-
--(void)dealloc
-{
-	// release any resources that have been retained by the module
-	[super dealloc];
 }
 
 #pragma mark Internal Memory Management
