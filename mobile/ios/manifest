@@ -6,12 +6,12 @@ version: 1.0.0
 apiversion: 2
 description: Backbeam.io Data Bindings for Titanium Studio
 author: Torgny Bjers
-license: Expat License <http://directory.fsf.org/wiki/License:Expat>
+license: Expat License
 copyright: Copyright (c) 2013 by Xorcode, LLC
 
 # these should not be edited
 name: backbeam
 moduleid: io.backbeam
-guid: a2b16403-fb85-452a-b4ce-4bf64cfa3ee6
+guid: c6b0d9c0-23d1-4139-8816-81b8390ea4b1
 platform: iphone
 minsdk: 3.1.1.GA
