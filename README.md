@@ -1,4 +1,4 @@
 titanium-backbeam
 =================
 
-Titanium Module providing Backbeam Data Connectivity
+Titanium Module for Backbeam.io API bindings
