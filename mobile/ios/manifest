@@ -1,0 +1,16 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: backbeam
+author: Torgny Bjers
+license: Expat License <http://directory.fsf.org/wiki/License:Expat>
+copyright: Copyright (c) 2013 by Xorcode, LLC
+
+# these should not be edited
+name: backbeam
+moduleid: io.backbeam
+guid: 1f1d51c4-9613-4f9a-8b35-928b229b9c01
+platforms: ios
