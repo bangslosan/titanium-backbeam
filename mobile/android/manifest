@@ -12,6 +12,6 @@ copyright: Copyright (c) 2013 by Xorcode, LLC
 # these should not be edited
 name: backbeam
 moduleid: io.backbeam
-guid: a611a39c-24f4-4afe-b105-3b882d358273
+guid: 583784fd-383b-43cb-9944-31de72dbd292
 platform: android
 minsdk: 3.1.1.GA

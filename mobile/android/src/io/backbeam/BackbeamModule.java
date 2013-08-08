@@ -10,9 +10,9 @@ package io.backbeam;
 
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
-
 import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.kroll.common.Log;
+import io.backbeam.Backbeam;
 
 @Kroll.module(name="Backbeam", id="io.backbeam")
 public class BackbeamModule extends KrollModule
